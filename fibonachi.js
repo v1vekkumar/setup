@@ -33,3 +33,4 @@ var k = 20;
 
 console.log ("firstkfib (" + k + "):" + fmt(firstkfib(k, fibonacci)));
 console.log ("firstkfib2 (" + k + "):" + fmt(firstkfib(k, fibonacci2)));
+fibonachi.js
