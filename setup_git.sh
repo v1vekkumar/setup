@@ -4,7 +4,7 @@ git config --global user.email "vivekk.chugh@gmail.com"
 git config --global push.default simple
 
 #setup my server
-git clone https://github.com/vzk/arya.git
+git clone https://github.com/vzk/arya.git $HOME/arya
 # git remote add origin git@github.com:vzk/arya.git
 
 cd $HOME/arya
