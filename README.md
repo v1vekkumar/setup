@@ -5,7 +5,7 @@ Clone and run this on a new EC2 instance running Ubuntu LTS to configure both th
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://github.com/startup-class/setup.git
+git clone https://github.com/vzk/setup.git
 ./setup/setup.sh   
 ```
 

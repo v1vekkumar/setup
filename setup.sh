@@ -41,3 +41,7 @@ git clone https://github.com/vzk/dotfiles.git
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
+
+# Setup the working git and cd to it. 
+# ** THIS IS THE LAST COMMOAND IN SETUP **
+source $HOME/setup/setup_git.sh

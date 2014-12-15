@@ -6,6 +6,8 @@ git config --global push.default simple
 #setup my server
 git clone https://github.com/vzk/arya.git
 # git remote add origin git@github.com:vzk/arya.git
+
+cd $HOME/arya
 git remote set-url origin git+ssh://git@github.com/vzkuma/arya.git
 
 # To upload the changes in the repo
