@@ -46,6 +46,19 @@ git clone https://github.com/vzk/dotfiles.git
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
+ln -sb dotfiles/.vimrc .
+
+## setup VIM
+# get Vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+npm install -g jshint # Install link for javascript
+vim +PluginInstall +qall
+
+
+# install distingusied color scheme
+mkdir ~/.vim/colors
+wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim -O ~/.vim/colors/distinguished.vim
+
 
 # Setup the working git and cd to it. 
 # ** THIS IS THE LAST COMMOAND IN SETUP **
