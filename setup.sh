@@ -54,11 +54,19 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 npm install -g jshint # Install link for javascript
 vim +PluginInstall +qall
 
+# get Vundle
 
 # install distingusied color scheme
 mkdir ~/.vim/colors
 wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim -O ~/.vim/colors/distinguished.vim
 
+
+## setup commonly used components for javascript development
+sudo npm install -g connect
+sudo npm install -g serve-static #for setting up a  server
+
+# node paths are installed in the following directory - they may note be always included
+export NODE_PATH=/usr/local/lib/node_modules/
 
 # Setup the working git and cd to it. 
 # ** THIS IS THE LAST COMMOAND IN SETUP **
