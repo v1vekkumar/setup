@@ -1,6 +1,7 @@
 #!/bin/bash
 # Simple setup.sh for configuring Ubuntu 12.04 LTS EC2 instance
 # for headless setup. 
+cd $HOME
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
@@ -51,7 +52,7 @@ ln -sb dotfiles/.vimrc .
 ## setup VIM
 # get Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-npm install -g jshint # Install link for javascript
+sudo npm install -g jshint # Install link for javascript
 vim +PluginInstall +qall
 
 # get Vundle
@@ -70,4 +71,4 @@ export NODE_PATH=/usr/local/lib/node_modules/
 
 # Setup the working git and cd to it. 
 # ** THIS IS THE LAST COMMOAND IN SETUP **
-source $HOME/setup/setup_git.sh
+#source $HOME/setup/setup_git.sh
