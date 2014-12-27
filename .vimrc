@@ -60,8 +60,8 @@ colorscheme distinguished
 
 " Enable intendation http://vim.wikia.com/wiki/Indenting_source_code 
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 
 "for Plugin Raimondi/delmitMate
 imap <C-c> <CR><Esc>O
