@@ -15,5 +15,15 @@ for more details.
 
 
 
+for MAC
+
+Make sure xcode is instaled so that git and curl work
+Install node.js and NPM and http://nodejs.org/download/
+
+git clone https://github.com/vzk/setup.git
+./setup/setup_mac.sh   
+
+
+
 
 
